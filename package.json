@@ -1,10 +1,13 @@
 {
   "name": "sasha-with-react",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
+    "firebase": "^5.8.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "3.0.0"
   },
   "scripts": {
@@ -27,5 +30,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "A simple responsive web blog using React as the front-end and Firebase as the back-end.",
+  "main": "server/server.js",
+  "devDependencies": {},
+  "author": "Aayush Goyal <aayushgoyal.mps@gmail.com> (https://aayushgoyal.in)",
+  "license": "ISC",
+  "proxy": "http://localhost:3000",
+  "homepage": "./"
 }
